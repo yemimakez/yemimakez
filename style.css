@@ -1,0 +1,77 @@
+body {
+    background-color: antiquewhite;
+}
+
+header {
+   border: 1px solid #A9BFA8;
+   padding: 30px;
+   text-align: center;
+}
+
+
+header h1 {
+    color: #5E686D;
+}
+
+header p {
+    font-style: italic;
+}
+
+header img {
+    width: 60%;
+    border: #5E686D;
+    border-radius: 50%;
+}
+header img :hover {
+    transform: scale(.8);
+    transition: all .3s ease-in-out;
+    box-shadow: 2px 2px 13 px #3A3960;
+}
+header button {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 30px;
+    background-color: beige;
+    color: brown;
+    border-radius: 15px;
+    border: 1px solid brown;
+}
+header button:hover {
+    background-color: black;
+    color brown;
+}
+.about {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.about h2 {
+    color: black;
+}
+
+.project {
+    width: 90% ;
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 30px ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.project img {
+    width: 40%;
+}
+ .project.img:hover {
+    transform: scale(.8);
+    transition: all.3s ease-in-out;
+    box-shadow: 2px 2px 12px #3A3960;
+ }
+
+ .footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 30px;
+    background-color: #CA7373;
+    color: hotpink;
+}
